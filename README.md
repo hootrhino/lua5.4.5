@@ -1,10 +1,10 @@
 # 简介
 
-本仓库是 **lua  V5.4.5** 的官方 Fork 版本，主要用来给 I4DE 的高级网关增加脚本特性。后期可能会针对特殊硬件增加一些功能，但是完全兼容标准LUA V5.4.5，不会对原始LUA代码做任何修改。
+本仓库是 **lua V5.4.5** 的官方 Fork 版本，主要用来给 I4DE 的高级网关增加脚本特性。后期可能会针对特殊硬件增加一些功能，但是完全兼容标准LUA V5.4.5，不会对原始LUA代码做任何修改。
 
 ## 构建
 
-下面主要是讲ubuntu下构建过程，Windows下建议使用MSYS2。
+下面主要是讲ubuntu下构建过程，Windows下建议使用MSYS2(不建议在Windows下开发lua)。
 
 ```sh
 make clean
@@ -26,7 +26,10 @@ make: *** [<builtin>: lua.o] Error 1
 ```sh
 sudo apt install libreadline-dev
 ```
+## 环境
+如图所示,本地调试可使用环境变量来指定lua文件加载路径：
 
+![img](image/README/1662122758332.png)
 ## 社区
 
 - 维护：wwhai

@@ -20,10 +20,10 @@
 #define LUA_VERSION_NUM 504
 #define LUA_VERSION_RELEASE_NUM (LUA_VERSION_NUM * 100 + 5)
 
-#define LUA_VERSION "Lua " LUA_VERSION_MAJOR "." LUA_VERSION_MINOR
+#define LUA_VERSION "RULAX is based Lua: " LUA_VERSION_MAJOR "." LUA_VERSION_MINOR
 #define LUA_RELEASE LUA_VERSION "." LUA_VERSION_RELEASE
-#define LUA_COPYRIGHT LUA_RELEASE "  I4DE @2022"
-#define LUA_AUTHORS "I4DE Team"
+#define LUA_COPYRIGHT LUA_RELEASE "  RULAX@AIIM Opensource Team"
+#define LUA_AUTHORS "lua team"
 
 /* mark for precompiled code ('<esc>Lua') */
 #define LUA_SIGNATURE "\x1bLua"
