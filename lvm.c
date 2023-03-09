@@ -1172,6 +1172,9 @@ void luaV_execute (lua_State *L, CallInfo *ci) {
   base = ci->func + 1;
   /* main loop of interpreter */
   for (;;) {
+    if (L->interrupted) {
+         return
+    }
     Instruction i;  /* instruction being executed */
     vmfetch();
     #if 0

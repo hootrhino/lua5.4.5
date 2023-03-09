@@ -323,6 +323,7 @@ struct lua_State {
   int oldpc;  /* last pc traced */
   int basehookcount;
   int hookcount;
+  int interrupted; // interrupted by external thread
   volatile l_signalT hookmask;
 };
 
