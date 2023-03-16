@@ -1318,11 +1318,12 @@ returning: /* trap already set */
   /* main loop of interpreter */
   for (;;)
   {
+
+    Instruction i; /* instruction being executed */
     if (L->interrupted)
     {
       return;
     }
-    Instruction i; /* instruction being executed */
     vmfetch();
 #if 0
       /* low-level line tracing for debugging Lua */
