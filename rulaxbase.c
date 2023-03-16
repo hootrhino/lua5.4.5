@@ -16,9 +16,6 @@ static int banner(lua_State *L)
     {
         return 0;
     }
-    printf("┌────────────────────────────────────────────────┐\n");
-    printf("│  RULAX 是基于LUA 5.4.5 版本衍生的一个规则引擎  │\n");
-    printf("└────────────────────────────────────────────────┘\n");
     return 0;
 }
 static const luaL_Reg rulax_libs[] = {
