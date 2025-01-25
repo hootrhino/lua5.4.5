@@ -23,9 +23,6 @@ LUAMOD_API int(luaopen_table)(lua_State *L);
 #define LUA_IOLIBNAME "io"
 LUAMOD_API int(luaopen_io)(lua_State *L);
 
-#define LUA_OSLIBNAME "os"
-LUAMOD_API int(luaopen_os)(lua_State *L);
-
 #define LUA_STRLIBNAME "string"
 LUAMOD_API int(luaopen_string)(lua_State *L);
 
@@ -43,8 +40,5 @@ LUAMOD_API int(luaopen_package)(lua_State *L);
 
 /* open all previous libraries */
 LUALIB_API void(luaL_openlibs)(lua_State *L);
-
-#define RULAX_LIBNAME "rulax"
-LUAMOD_API int rulax_base(lua_State *L);
 
 #endif

@@ -1174,7 +1174,6 @@ static int loadlib (lua_State *L) {
     {"coroutine", luaopen_coroutine},
     {"debug", luaopen_debug},
     {"io", luaopen_io},
-    {"os", luaopen_os},
     {"math", luaopen_math},
     {"string", luaopen_string},
     {"table", luaopen_table},
