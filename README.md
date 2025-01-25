@@ -14,7 +14,7 @@ def hello()
 end
 hello()
 ```
-其瓦全等同于:
+其等同于:
 ```lua
 function hello()
     print(你好)
