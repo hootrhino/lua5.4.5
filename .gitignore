@@ -14,3 +14,4 @@ testes/libs/all
 temp
 lua
 lua_hello_world
+./vscode/*
